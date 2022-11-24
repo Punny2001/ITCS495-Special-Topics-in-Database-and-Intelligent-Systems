@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="210" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">50000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+          <Value name="Deterministic">False</Value>
+          <Value name="Seed">458676342</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="RandomRecords.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PONGSA~1\AppData\Local\Temp\Engine_10920_004e30b4ca2ab44abd6be57fababcaba_\Engine_10920_6e4d52f184f98c4f9bfe2960a098ef7b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="246" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PONGSA~1\AppData\Local\Temp\Engine_10920_004e30b4ca2ab44abd6be57fababcaba_\Engine_10920_73dedf84a54a67468051cab9d876de3d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>tripadvisor_european_restaurants.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="restaurant_link" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="restaurant_name" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="original_location" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="country" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="region" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="province" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="city" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="claimed" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="awards" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="popularity_detailed" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="popularity_generic" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="top_tags" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="price_level" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="price_range" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="meals" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="cuisines" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="special_diets" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="features" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="vegetarian_friendly" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="vegan_options" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="gluten_free" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="original_open_hours" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="open_days_per_week" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="open_hours_per_week" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="working_shifts_per_week" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="avg_rating" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="total_reviews_count" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="default_language" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="reviews_count_in_default_language" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="excellent" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="very_good" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="average" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="poor" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="terrible" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="food" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="service" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="atmosphere" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="keywords" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="402" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="restaurant_link" selected="True" />
+            <Field field="restaurant_name" selected="True" />
+            <Field field="original_location" selected="True" />
+            <Field field="country" selected="True" />
+            <Field field="region" selected="True" />
+            <Field field="province" selected="True" />
+            <Field field="city" selected="True" />
+            <Field field="address" selected="True" />
+            <Field field="latitude" selected="True" />
+            <Field field="longitude" selected="True" />
+            <Field field="claimed" selected="True" />
+            <Field field="awards" selected="True" />
+            <Field field="popularity_detailed" selected="True" />
+            <Field field="popularity_generic" selected="True" />
+            <Field field="top_tags" selected="True" />
+            <Field field="price_level" selected="True" />
+            <Field field="price_range" selected="True" />
+            <Field field="meals" selected="True" />
+            <Field field="cuisines" selected="True" />
+            <Field field="special_diets" selected="True" />
+            <Field field="features" selected="True" />
+            <Field field="vegetarian_friendly" selected="True" />
+            <Field field="vegan_options" selected="True" />
+            <Field field="gluten_free" selected="True" />
+            <Field field="original_open_hours" selected="True" />
+            <Field field="open_days_per_week" selected="True" />
+            <Field field="open_hours_per_week" selected="True" />
+            <Field field="working_shifts_per_week" selected="True" />
+            <Field field="avg_rating" selected="True" />
+            <Field field="total_reviews_count" selected="True" />
+            <Field field="default_language" selected="True" />
+            <Field field="reviews_count_in_default_language" selected="True" />
+            <Field field="excellent" selected="True" />
+            <Field field="very_good" selected="True" />
+            <Field field="average" selected="True" />
+            <Field field="poor" selected="True" />
+            <Field field="terrible" selected="True" />
+            <Field field="food" selected="True" />
+            <Field field="service" selected="True" />
+            <Field field="value" selected="True" />
+            <Field field="atmosphere" selected="True" />
+            <Field field="keywords" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="restaurant_link" size="19" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="restaurant_name" size="91" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="original_location" size="140" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="country" size="16" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="region" size="28" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="province" size="43" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="city" size="43" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="address" size="192" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="latitude" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="longitude" size="10" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="claimed" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="awards" size="254" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="popularity_detailed" size="65" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="popularity_generic" size="71" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="top_tags" size="68" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="price_level" size="16" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="price_range" size="21" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="meals" size="53" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="cuisines" size="122" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="special_diets" size="70" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="features" size="254" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="vegetarian_friendly" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="vegan_options" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="gluten_free" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="original_open_hours" size="254" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="open_days_per_week" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="open_hours_per_week" size="18" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="working_shifts_per_week" size="4" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="avg_rating" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="total_reviews_count" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="default_language" size="13" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="reviews_count_in_default_language" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="excellent" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="very_good" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="average" size="5" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="poor" size="5" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="terrible" size="5" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="food" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="service" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="value" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="atmosphere" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="keywords" size="113" source="Formula: [_CurrentField_]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="498" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="address" selected="False" />
+            <SelectField field="price_level" selected="False" />
+            <SelectField field="price_range" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="594" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Pongsakorn\Downloads\archive\Project_sample_data.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Project_sample_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings>
+        <Position x="306" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"restaurant_link","restaurant_name","original_location","country","region","province","city","address","latitude","longitude","claimed","awards","popularity_detailed","popularity_generic","top_tags","price_level","price_range","meals","cuisines","special_diets","features","vegetarian_friendly","vegan_options","gluten_free","original_open_hours","open_days_per_week","open_hours_per_week","working_shifts_per_week","avg_rating","total_reviews_count","default_language","reviews_count_in_default_language","excellent","very_good","average","poor","terrible","food","service","value","atmosphere","keywords"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="10" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output26" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>start_project</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="abf4ba9e-b79c-4de5-9845-1d38853dce19" />
+      <Telemetry>
+        <PreviousWorkflowId value="5eee6257-8143-4979-b4a5-864d2929f75c" />
+        <OriginWorkflowId value="5eee6257-8143-4979-b4a5-864d2929f75c" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
